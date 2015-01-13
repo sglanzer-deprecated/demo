@@ -1,0 +1,11 @@
+<button {{action 'magic'}}>Magic</button>
+
+{{#liquid-if isMagic class="magical"}}
+    <div class="magic">
+        It's magic!
+    </div>
+{{else}}
+    <div>
+        It's not magic!
+    </div>
+{{/liquid-if}}
